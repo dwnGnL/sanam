@@ -1,24 +1,68 @@
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+}
+.slide{
+  display: block;
+  position: relative;
+  height: 100vh;
+}
 .swiper-container {
-    width: 600px;
-    height: 300px;
+		width: 100%;
+		height: 100vh;
+		margin: 20px auto;
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+.swiper-slide-container {
+  text-align: center;
+	font-size: 18px;
+	background: #fff;
+  height:100%;
+  /* max-width: 600px; */
+  margin:auto;
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
+.gallery-top {
+		/* height: 80%; */
+		width: 100%;
+}
+.gallery-thumbs {
+  position: absolute;
+  top: 50%;
+    /* height: 20%; */
+    height: 40%;
+		box-sizing: border-box;
+    padding: 10px 0;
+    transition-property: height;
+    transition-delay: 1s;
+}
+.gallery-thumbs .swiper-slide {
+		width: 30%;
+		/* height: 100%; */
+    opacity: 0.4;
+    
+}
+.gallery-thumbs .swiper-slide-active {
+  width: 45%;
+  height: 150%;
+    opacity: 1;
+    border: 1px solid red;
+}
