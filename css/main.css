@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale&display=swap');
+
 body {
 	background: #eee;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -5,7 +7,14 @@ body {
 	color: #000;
 	margin: 0;
 	padding: 0;
-	height: 300px;
+  height: 300px;
+  
+  background: url(../image/confetti.png);
+  background-size: 100%;
+  /* background-position: 50% 50%; */
+  background-attachment: fixed;
+
+  font-family: 'Kurale', serif;
 }
 
 a {
@@ -13,7 +22,7 @@ a {
   color: inherit;
 }
 
-#blog {
+#blog, #contacts {
   width: 90%;
   margin: 50px auto;
   display: grid;
@@ -41,4 +50,16 @@ a {
   border-radius: 5px;
   background: #31366c;
   display: inline-block;
+}
+
+.contact_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+#contacts {
+  margin: 50px auto auto !important;
 }
