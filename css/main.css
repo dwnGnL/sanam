@@ -14,16 +14,14 @@ a {
 }
 
 #blog {
-  border: 1px solid;
-  /* height: 1000px; */
   width: 90%;
-  margin: auto;
+  margin: 50px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
-.blog__inner {
+.blog__image {
   border: 1px solid;
 }
 

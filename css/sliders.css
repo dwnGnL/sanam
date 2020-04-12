@@ -1,12 +1,19 @@
+.slide1 {
+	display: block;
+	position: relative;
+	height: 60vw;
+}
+
 .slide2 {
 	display: block;
 	position: relative;
-	height: 100vh;
+	height: 60vw;
 }
 
 .swiper-container {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
+	/* height: 100vh; */
 	margin: 20px auto;
 }
 
