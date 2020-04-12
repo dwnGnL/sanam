@@ -2,81 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <div class="slide1">
-            <div class="swiper-container fade-gallery">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                      <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-white"></div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next swiper-button-white"></div>
-                    <div class="swiper-button-prev swiper-button-white"></div>
-                  </div>
-    </div>
+  <div id="header">
+    <ul class="header__list">
+      <li><div class="logo">logo</div></li>
+      <li class="list__item">О бренде</li>
+      <li class="list__item">Продукция</li>
+      <li class="list__item">Новинки</li>
+    </ul>
+  </div>
 
-    
-    <div class="slide2">
-    <div class="swiper-container gallery-top">
+
+  <div id="content">
+    <div class="slide1">
+      <div class="swiper-container fade-gallery">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background-image: url(image/image1.png); background-size: 100%;background-position: center;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background-image: url(image/image2.png); background-size: 100%;background-position: center;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background-image: url(image/image3.png); background-size: 100%;background-position: center;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background-image: url(image/image4.png); background-size: 100%;background-position: center;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background-image: url(image/image5.png); background-size: 100%;background-position: center;"></div>
-            </div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+          <div class="swiper-slide" style="background-image:url(./image/image1.png);background-size: 100%;"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+      </div>
+    </div>
+  
+    <div class="slide2">
+      <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background-image: url(image/image1.png); background-size: 100%;background-position: center;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background-image: url(image/image2.png); background-size: 100%;background-position: center;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background-image: url(image/image3.png); background-size: 100%;background-position: center;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background-image: url(image/image4.png); background-size: 100%;background-position: center;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background-image: url(image/image5.png); background-size: 100%;background-position: center;"></div>
+          </div>
         </div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-    </div>
-    <div class="swiper-container gallery-thumbs">
+      </div>
+      <div class="swiper-container gallery-thumbs">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background: url(image/image1.png) center no-repeat; background-size: contain;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background: url(image/image2.png) center no-repeat; background-size: contain;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background: url(image/image3.png) center no-repeat; background-size: contain;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background: url(image/image4.png) center no-repeat; background-size: contain;"></div>
-            </div>
-            <div class="swiper-slide">
-                <div class="swiper-slide-container" style="background: url(image/image5.png) center no-repeat; background-size: contain;"></div>
-            </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background: url(image/image1.png) center no-repeat; background-size: contain;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background: url(image/image2.png) center no-repeat; background-size: contain;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background: url(image/image3.png) center no-repeat; background-size: contain;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background: url(image/image4.png) center no-repeat; background-size: contain;"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-container"
+              style="background: url(image/image5.png) center no-repeat; background-size: contain;"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/script.js"></script>
+  </div>
+
+
+  <div id="footer">
+    <div class="logo">logo</div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

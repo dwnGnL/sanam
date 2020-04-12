@@ -1,0 +1,5 @@
+#footer {
+  height: 150px;
+  position: relative;
+  background: linear-gradient(90deg, #e2013d 30%, #a8022c 70%);
+}
