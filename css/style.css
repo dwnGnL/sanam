@@ -67,8 +67,10 @@ body {
 	transform: scale(.6);
 	transition: transform .2s;
 	background-color: #ffffff80;
+	cursor: pointer;
 }
 
 .gallery-thumbs .swiper-slide-active {
 	transform: scale(1);
+	cursor: default;
 }
