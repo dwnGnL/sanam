@@ -35,3 +35,7 @@ var swiper = new Swiper('.fade-gallery', {
     prevEl: '.swiper-button-prev1',
   },
 });
+
+
+var slideItem = document.querySelectorAll('.swiper-slide');
+console.log(slideItem[3].clientHeight);

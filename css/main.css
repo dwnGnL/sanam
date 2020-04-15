@@ -172,7 +172,11 @@ body.loading .preload {
 
 @media screen and (max-width: 767px) {
 
-  #blog,
+  #blog {
+    display: flex;
+    flex-direction: column;
+  }
+
   #contacts {
     display: flex;
     flex-direction: column-reverse;
@@ -180,6 +184,7 @@ body.loading .preload {
 
   .main-blog__image {
     height: 50vw;
+    margin-bottom: 20px;
   }
 
   .blog {
