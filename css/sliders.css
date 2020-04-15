@@ -13,6 +13,8 @@
 }
 .slide2 {
 	height: 60vw;
+	width: 99%;
+	margin: auto;
 }
 
 .swiper-container {
@@ -56,8 +58,6 @@
 }
 
 .gallery-thumbs .swiper-slide {
-	/* width: 32.25vw !important;
-	height: 32.25vw !important; */
 	border-radius: 100%;
 	border-left: .2vw solid;
 	border-right: .2vw solid;
@@ -80,4 +80,12 @@
 
 .swiper-slide-button {
 	outline: none;
+}
+
+.swiper-slide-button::after {
+	display: none;
+}
+
+.swiper-slide-button i {
+	font-size: 5vw;
 }
