@@ -1,18 +1,18 @@
-.slide1 {
+.main-sliders {
 	display: block;
 	position: relative;
-	height: 45vw;
 	background-color: #fff;
+}
+
+.slide1 {
+	height: 45vw;
 }
 .slide1 img{
 	height: 100%;
 	width: 100%;
 }
 .slide2 {
-	display: block;
-	position: relative;
 	height: 60vw;
-	background-color: #fff;
 }
 
 .swiper-container {

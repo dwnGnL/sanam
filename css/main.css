@@ -87,9 +87,6 @@ a {
 #blog, #contacts {
   width: 90%;
   margin: 50px auto;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr;
-  grid-gap: 20px; */
 }
 
 .main-blog__image {
@@ -162,13 +159,13 @@ a {
   padding: 10px 0;
 }
 
+.blog__item {
+  background: #fff;
+}
 
-/*
-1200
-992
-767
-550
-*/
+.shadows {
+  box-shadow: 0 0 10px 10px #fff;
+}
 
 @media screen and (min-width: 992px) {
   .blog {
