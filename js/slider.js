@@ -38,7 +38,10 @@ var swiper = new Swiper('.fade-gallery', {
 
 
 
-var slideItem = document.querySelectorAll('.circle-swiper-slide');
-for (let i = 0; i < slideItem.length; i++) {
-  slideItem[i].style.height = `${slideItem[i].clientWidth}px`;
-};
+
+window.onresize = () => {
+  var slideItem = document.querySelectorAll('.circle-swiper-slide');
+  for (let i = 0; i < slideItem.length; i++) {
+    slideItem[i].style.height = `${slideItem[i].clientWidth}px`;
+  };  
+}
