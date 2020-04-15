@@ -14,16 +14,24 @@
   <title>Sweet Pause</title>
 </head>
 
-<body>
-    <!-- <div class="preloader">
-        <div class="prePreloader"></div>
-     </div> -->
+<body class="loading">
+
+  <div class="preload">
+    <div class="preload__icon"></div>
+  </div>
+
   <div id="header">
     <div class="logo"></div>
     <ul class="header__list">
-      <a href="#slide1"><li class="list__item">О бренде</li></a>
-      <a href="#slide2"><li class="list__item">Продукция</li></a>
-      <a href="#footer"><li class="list__item">Новинки</li></a>
+      <a href="#slide1">
+        <li class="list__item">О бренде</li>
+      </a>
+      <a href="#slide2">
+        <li class="list__item">Продукция</li>
+      </a>
+      <a href="#footer">
+        <li class="list__item">Новинки</li>
+      </a>
     </ul>
 
     <div class="menu-button">
@@ -42,54 +50,60 @@
         <div class="blog__image"></div>
         <div class="blog__title">Lorem ipsum dolor sit.</div>
         <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
-        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis.
+          Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos
+          magnam voluptates, delectus minima quod quia possimus nihil!</div>
       </li>
 
       <li class="blog__item shadows">
         <div class="blog__image"></div>
         <div class="blog__title">Lorem ipsum dolor sit.</div>
         <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
-        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis.
+          Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos
+          magnam voluptates, delectus minima quod quia possimus nihil!</div>
       </li>
 
       <li class="blog__item shadows">
         <div class="blog__image"></div>
         <div class="blog__title">Lorem ipsum dolor sit.</div>
         <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
-        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis.
+          Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos
+          magnam voluptates, delectus minima quod quia possimus nihil!</div>
       </li>
 
       <li class="blog__item shadows">
         <div class="blog__image"></div>
         <div class="blog__title">Lorem ipsum dolor sit.</div>
         <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
-        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis.
+          Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos
+          magnam voluptates, delectus minima quod quia possimus nihil!</div>
       </li>
-    </ul>    
+    </ul>
   </div>
 
 
   <div id="footer">
     <div class="logo"></div>
+    <div class="social">
+      <ul class="social__list">
+        <li class="social__item"><a href=""><i class="fab fa-youtube"></i></a></li>
+        <li class="social__item"><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li class="social__item"><a href=""><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
   </div>
 
   <script src="../js/jquery-3.3.1.min.js"></script>
-  <script>
-  
-    $preloader = $('.preloader'),
-    $loader = $preloader.find('.prePreloader');
-    setTimeout(()=>{ 
-      $loader.fadeOut();
-    $preloader.delay(350).fadeOut('slow');
-  },2000)
-    // $loader.fadeOut();
-    // $preloader.delay(350).fadeOut('slow');
-  
-</script>
   <script src="../js/swiper.min.js"></script>
   <script src="../js/script.js"></script>
   <script src="../js/paralax.js"></script>
   <script src="../js/menu.js"></script>
+  <script src="../js/slider.js"></script>
+  <script src="../js/anchor.js"></script>
+  <script src="../js/preload.js"></script>
 </body>
 
 </html>
