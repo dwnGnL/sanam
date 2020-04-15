@@ -11,20 +11,26 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="./font-awesome/css/all.css">
-  <title>Document</title>
+  <title>Sweet Pause</title>
 </head>
 
 <body>
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="prePreloader"></div>
-     </div>
+     </div> -->
   <div id="header">
+    <div class="logo"></div>
     <ul class="header__list">
-      <li><div class="logo"></div></li>
-      <li class="list__item"><a href="#slide1">О бренде</a></li>
-      <li class="list__item"><a href="#slide2">Продукция</a></li>
-      <li class="list__item"><a href="#footer">Новинки</a></li>
+      <a href="#slide1"><li class="list__item">О бренде</li></a>
+      <a href="#slide2"><li class="list__item">Продукция</li></a>
+      <a href="#footer"><li class="list__item">Новинки</li></a>
     </ul>
+
+    <div class="menu-button">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
   </div>
 
 
@@ -103,7 +109,7 @@
 
 
     <div id="blog">
-      <div class="blog__inner blog__image"></div>
+      <div class="blog__inner main-blog__image"></div>
 
       <div class="blog__inner blog__text">
         <h1>Lorem ipsum dolor sit amet consectetur?</h1>
@@ -136,7 +142,7 @@
     <div class="logo"></div>
   </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script>
   <script>
   
     $preloader = $('.preloader'),
@@ -146,12 +152,13 @@
     $preloader.delay(350).fadeOut('slow');
   },2000)
     // $loader.fadeOut();
-    // $preloader.delay(350).fadeOut('slow');
+    // $preloader.delay(350).fadeOut('slow'); -->
   
 </script>
   <script src="js/swiper.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/paralax.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 
 </html>

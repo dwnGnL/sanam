@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/sliders.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../font-awesome/css/all.css">
+  <title>Sweet Pause</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="prePreloader"></div>
+     </div>
+  <div id="header">
+    <div class="logo"></div>
+    <ul class="header__list">
+      <a href="#slide1"><li class="list__item">О бренде</li></a>
+      <a href="#slide2"><li class="list__item">Продукция</li></a>
+      <a href="#footer"><li class="list__item">Новинки</li></a>
+    </ul>
+
+    <div class="menu-button">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+  </div>
+
+
+  <div id="content">
+    <div class="content__title">Блог</div>
+
+    <ul class="blog">
+      <li class="blog__item">
+        <div class="blog__image"></div>
+        <div class="blog__title">Lorem ipsum dolor sit.</div>
+        <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+      </li>
+
+      <li class="blog__item">
+        <div class="blog__image"></div>
+        <div class="blog__title">Lorem ipsum dolor sit.</div>
+        <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+      </li>
+
+      <li class="blog__item">
+        <div class="blog__image"></div>
+        <div class="blog__title">Lorem ipsum dolor sit.</div>
+        <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+      </li>
+
+      <li class="blog__item">
+        <div class="blog__image"></div>
+        <div class="blog__title">Lorem ipsum dolor sit.</div>
+        <div class="blog__publish-date">Lorem ipsum dolor sit.</div>
+        <div class="blog__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!</div>
+      </li>
+    </ul>    
+  </div>
+
+
+  <div id="footer">
+    <div class="logo"></div>
+  </div>
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script>
+  
+    $preloader = $('.preloader'),
+    $loader = $preloader.find('.prePreloader');
+    setTimeout(()=>{ 
+      $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  },2000)
+    // $loader.fadeOut();
+    // $preloader.delay(350).fadeOut('slow');
+  
+</script>
+  <script src="../js/swiper.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/paralax.js"></script>
+  <script src="../js/menu.js"></script>
+</body>
+
+</html>
