@@ -1,0 +1,35 @@
+{
+  "ru": {
+    "phone": {
+      "name": "ТЕЛЕФОН",
+      "value": "4883423423"
+    },
+  
+    "mail": {
+      "name": "ПОЧТА",
+      "value": "fasdfjasdlfj@gmail.com"
+    },
+  
+    "address": {
+      "name": "АДРЕС",
+      "value": "lkdsafjasdf asdf asd"
+    }
+  },
+
+  "en": {
+    "phone": {
+      "name": "Phone",
+      "value": "4883423423"
+    },
+  
+    "mail": {
+      "name": "Mail",
+      "value": "fasdfjasdlfj@gmail.com"
+    },
+  
+    "address": {
+      "name": "Address",
+      "value": "lkdsafjasdf asdf asd"
+    }
+  }
+}

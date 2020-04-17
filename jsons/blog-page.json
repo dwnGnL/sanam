@@ -1,0 +1,53 @@
+{
+  "ru": {
+    "pageTitle": "Блог",
+    "blogInner": [
+      {
+        "title": "1 Lorem ipsum dolor sit.",
+        "publish-date": "1 Lorem ipsum dolor sit.",
+        "description": "1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "2 Lorem ipsum dolor sit.",
+        "publish-date": "2 Lorem ipsum dolor sit.",
+        "description": "2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "3 Lorem ipsum dolor sit.",
+        "publish-date": "3 Lorem ipsum dolor sit.",
+        "description": "3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "4 Lorem ipsum dolor sit.",
+        "publish-date": "4 Lorem ipsum dolor sit.",
+        "description": "4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      }
+    ]
+  },
+
+  "en": {
+    "pageTitle": "Blog",
+    "blogInner": [
+      {
+        "title": "1 Lorem ipsum dolor sit.",
+        "publish-date": "1 Lorem ipsum dolor sit.",
+        "description": "1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "2 Lorem ipsum dolor sit.",
+        "publish-date": "2 Lorem ipsum dolor sit.",
+        "description": "2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "3 Lorem ipsum dolor sit.",
+        "publish-date": "3 Lorem ipsum dolor sit.",
+        "description": "3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      },
+      {
+        "title": "4 Lorem ipsum dolor sit.",
+        "publish-date": "4 Lorem ipsum dolor sit.",
+        "description": "4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, blanditiis. Expedita illum inventore eius voluptatibus nam exercitationem ipsum provident, temporibus aspernatur eos magnam voluptates, delectus minima quod quia possimus nihil!"
+      }
+    ]
+  }
+}
