@@ -17,6 +17,9 @@ body {
 a {
   text-decoration: inherit;
   color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 #blog,
@@ -42,6 +45,7 @@ a {
 }
 
 .blog__text a {
+  width: auto;
   padding: 10px 20px;
   border-radius: 5px;
   background: #31366c;
@@ -107,8 +111,23 @@ a {
   box-shadow: 0 0 10px 10px #fff;
 }
 
-/* preload */
 
+/* blog page */
+.blog__page {
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+img {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* preload */
 .preload {
   background: linear-gradient(90deg, #a5022e 30%, #7c0120 70%);
   position: fixed;
