@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./font-awesome/css/all.css">
   <title>Sweet Pause</title>
+  <script type="module">
+      import config from '/qwe.js';
+            console.log(JSON.stringify(config))
+      </script>
 </head>
 
 <body class="loading">
@@ -33,7 +37,9 @@
         <li class="list__item">Новинки</li>
       </a>
     </ul>
-
+    <a href="#">
+      <li id="en">Новинки</li>
+    </a>
     <div class="menu-button">
       <div class="menu-line"></div>
       <div class="menu-line"></div>
@@ -66,23 +72,23 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="swiper-slide-container"
-              style="background: url(image/image1.png) center no-repeat; background-size: 100%;"></div>
+              style="background: url(image/image1_1.jpg) center no-repeat; background-size: cover;"></div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container"
-              style="background: url(image/image2.png) center no-repeat; background-size: 100%;"></div>
+              style="background: url(image/image2_2.jpg) center no-repeat; background-size: cover;"></div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container"
-              style="background: url(image/image3.png) center no-repeat; background-size: 100%;"></div>
+              style="background: url(image/image3_3.jpg) center no-repeat; background-size: cover;"></div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container"
-              style="background: url(image/image4.png) center no-repeat; background-size: 100%;"></div>
+              style="background: url(image/image4_4.jpg) center no-repeat; background-size: cover;"></div>
           </div>
           <div class="swiper-slide">
             <div class="swiper-slide-container"
-              style="background: url(image/image5.png) center no-repeat; background-size: 100%;"></div>
+              style="background: url(image/image5_5.jpg) center no-repeat; background-size: cover;"></div>
           </div>
         </div>
         <!-- Add Arrows -->
@@ -168,9 +174,16 @@
   <script src="./js/swiper.min.js"></script>
   <script src="./js/paralax.js"></script>
   <script src="./js/menu.js"></script>
-  <script src="./js/anchor.js"></script>
+  <!-- <script src="./js/anchor.js"></script> -->
   <script src="./js/preload.js"></script>
   <script src="./js/slider.js"></script>
+  <script>
+  en=document.getElementById("en")
+  addEventListener("click",()=>{
+    fetch("./jsons/blog-page.json").then((res)=>res.json())
+    .then((res)=>{console.log(res)})
+  })
+  </script>
 </body>
 
 </html>
