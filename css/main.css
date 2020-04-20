@@ -80,20 +80,18 @@ a {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .advantage__item {
   margin: 30px;
-  width: 250px;
+  width: 200px;
   text-align: center;
   color: #fff;
 }
 
 .advantage__img {
-  width: 150px;
-  height: 150px;
-  margin: auto;
+  font-size: 125px;
 }
 
 .advantage__title {
