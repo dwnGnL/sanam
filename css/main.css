@@ -114,7 +114,7 @@ a {
 
 /* blog page */
 .blog__page {
-  padding: 20px;
+  padding: 20px 40px;
   box-sizing: border-box;
   font-size: 18px;
   line-height: 27px;
