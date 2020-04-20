@@ -22,10 +22,9 @@ a {
   height: 100%;
 }
 
-#blog,
-#contacts {
+.block__item {
   width: 90%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .main-blog__image {
@@ -60,14 +59,51 @@ a {
   line-height: 40px;
 }
 
-#contacts {
-  margin: 50px auto !important;
-}
-
 .map {
   background: #fff;
 }
 
+
+.block__title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#advantage {
+  background: url(../image/test/image-4.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.advantage__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.advantage__item {
+  margin: 30px;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+.advantage__img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.advantage__title {
+  font-size: 23px;
+  margin: 10px 0;
+}
+
+.advantage__desc {
+  font-size: 16px;
+}
 
 
 /* Blog */

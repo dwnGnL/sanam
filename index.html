@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./font-awesome/css/all.css">
   <title>Sweet Pause</title>
-  <script type="module">
+  <!-- <script type="module">
     import config from '/qwe.js';
     console.log(JSON.stringify(config))
-  </script>
+  </script> -->
 </head>
 
 <body class="loading">
@@ -115,7 +115,8 @@
     </div>
 
 
-    <div id="blog">
+    <h1 class="block__title">Блог</h1>
+    <div id="blog" class="block__item">
       <div class="blog__inner shadows main-blog__image"></div>
 
       <div class="blog__inner shadows blog__text">
@@ -133,8 +134,47 @@
       </div>
     </div>
 
+    <h1 class="block__title">Преимущества</h1>
+    <div id="advantage">
+      <ul class="advantage__list">
+        <li class="advantage__item">
+          <div class="advantage__img" style="background: url(./image/test/image-1.jpg) center no-repeat; background-size: cover;"></div>
+          <div class="advantage__text">
+            <div class="advantage__title">Lorem</div>
+            <div class="advantage__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quasi deleniti eveniet porro! Fugiat doloribus odio iste at amet maiores.</div>
+          </div>
+        </li>
 
-    <div id="contacts">
+        <li class="advantage__item">
+          <div class="advantage__img" style="background: url(./image/test/image-1.jpg) center no-repeat; background-size: cover;"></div>
+          <div class="advantage__text">
+            <div class="advantage__title">Lorem</div>
+            <div class="advantage__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quasi deleniti eveniet porro! Fugiat doloribus odio iste at amet maiores.</div>
+          </div>
+        </li>
+
+        <li class="advantage__item">
+          <div class="advantage__img" style="background: url(./image/test/image-1.jpg) center no-repeat; background-size: cover;"></div>
+          <div class="advantage__text">
+            <div class="advantage__title">Lorem</div>
+            <div class="advantage__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quasi deleniti eveniet porro! Fugiat doloribus odio iste at amet maiores.</div>
+          </div>
+        </li>
+
+        <li class="advantage__item">
+          <div class="advantage__img" style="background: url(./image/test/image-1.jpg) center no-repeat; background-size: cover;"></div>
+          <div class="advantage__text">
+            <div class="advantage__title">Lorem</div>
+            <div class="advantage__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quasi deleniti eveniet porro! Fugiat doloribus odio iste at amet maiores.</div>
+          </div>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <h1 class="block__title">Контакты</h1>
+    <div id="contacts" class="block__item">
       <ul class="contact_list">
         <li><i class="fas fa-phone-alt"></i> <b>ТЕЛЕФОН</b>: sfdafdasdfasdf adsf </li>
         <li><i class="fas fa-envelope"></i> <b>ПОЧТА</b>: sfdafdasdfasdf adsf </li>
