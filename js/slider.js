@@ -2,8 +2,8 @@ var galleryTop = new Swiper('.gallery-top', {
   spaceBetween: 10,
   effect: "fade",
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.next1',
+    prevEl: '.prev1',
   },
   loop: true,
   loopedSlides: 4
@@ -31,8 +31,8 @@ var swiper = new Swiper('.fade-gallery', {
     clickable: true,
   },
   navigation: {
-    nextEl: '.swiper-button-next1',
-    prevEl: '.swiper-button-prev1',
+    nextEl: '.next',
+    prevEl: '.prev',
   },
 });
 
