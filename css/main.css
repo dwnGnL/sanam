@@ -67,7 +67,7 @@ a {
 }
 
 #advantage {
-  background: url(../image/test/image-4.jpg) center no-repeat;
+  background: url(../image/berries.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -84,7 +84,7 @@ a {
   margin: 30px;
   width: 200px;
   text-align: center;
-  color: #e40417;
+  color: #df1e31;
   /* text-shadow: 0 0 4px #ff0045; */
 }
 
@@ -95,10 +95,12 @@ a {
 .advantage__title {
   font-size: 23px;
   margin: 10px 0;
+  color: white;
 }
 
 .advantage__desc {
   font-size: 16px;
+  color: white;
 }
 
 
