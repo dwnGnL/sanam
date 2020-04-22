@@ -87,7 +87,8 @@ a {
   margin: 30px;
   width: 200px;
   text-align: center;
-  color: #fff;
+  color: #e40417;
+  /* text-shadow: 0 0 4px #ff0045; */
 }
 
 .advantage__img {
