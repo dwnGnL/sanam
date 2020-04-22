@@ -16,31 +16,6 @@
   cursor: pointer;
 }
 
-.toggle-language {
-  border: 2px solid #fedb97;
-  border-radius: 7px;
-  background: #e40417;
-  /* width: 2.7vw; */
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-
-html:lang(en) .toggle-language::after {
-  content: 'en';
-}
-
-html:lang(ru) .toggle-language::after {
-  content: 'ru';
-}
-
-html:lang(en) .toggle-language:hover::after {
-  content: 'ru';
-}
-
-html:lang(ru) .toggle-language:hover::after {
-  content: 'en';
-}
 
 /* menu button */
 .menu-button {
