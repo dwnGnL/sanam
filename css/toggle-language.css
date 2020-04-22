@@ -30,9 +30,6 @@
   height: auto;
 }
 
-.list__item__lang a {
-  /* transform: scale(1.2); */
-}
 
 @media screen and (min-width: 767px) {
   .mobile__toggle {
