@@ -157,8 +157,8 @@
 
 .cuntact-us__button {
 	border: none;
-	padding: 5px 10px;
-	border-radius: 5px;
+	padding: .5vw 1vw;
+	border-radius: .5vw;
 	font-weight: bold;
 	font-size: inherit;
 	margin: 2vw auto;
@@ -193,4 +193,27 @@
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
 	left: 1vw !important;
+}
+
+
+.slider-item__text {
+	position: absolute;
+	left: 50%;
+	top: 4.3vw;
+	transform: translateX(-50%);
+	font-size: 2vw;
+	font-weight: bold;
+	color: #323232;
+	text-align: center;
+}
+
+.show-description__button {
+	position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: .5vw 1vw;
+    border-radius: .5vw;
+    font-size: 1.5vw;
 }
