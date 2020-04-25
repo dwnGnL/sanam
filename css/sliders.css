@@ -209,11 +209,12 @@
 
 .show-description__button {
 	position: absolute;
-    left: 50%;
-    top: 85%;
-    transform: translateX(-50%);
-    background: #fff;
-    padding: .5vw 1vw;
-    border-radius: .5vw;
-    font-size: 1.5vw;
+	left: 50%;
+	top: 85%;
+	transform: translateX(-50%);
+	background: #fff;
+	padding: .5vw 1vw;
+	border-radius: .5vw;
+	font-size: 1.5vw;
+	cursor: pointer;
 }
