@@ -4,6 +4,7 @@
   color: #fff;
   width: 100%;
   box-sizing: border-box;
+  z-index: 9;
 }
 
 .logo {
@@ -79,7 +80,7 @@
   transform: translateX(0%);
 }
 
-body.sticky {
+body.sticky #content {
   margin-top: 100px;
 }
 
@@ -89,7 +90,6 @@ body.sticky .switcher {
 
 body.sticky #header {
   position: fixed;
-  z-index: 99;
   top: -71px;
   height: 70px;
   transform: translateY(70px);
