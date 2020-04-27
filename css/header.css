@@ -77,6 +77,34 @@
   display: list-item;
 }
 
+.list__item__lang {
+  cursor: default;
+}
+
+
+body.sticky {
+  margin-top: 100px;
+}
+
+body.sticky .switcher {
+  top: 0;
+}
+
+body.sticky #header {
+  position: fixed;
+  z-index: 99;
+  top: -71px;
+  height: 70px;
+  transform: translateY(70px);
+  transition: transform .5s;
+}
+
+body.sticky #header .logo {
+  width: 150px;
+  height: 70px;
+}
+
+
 /*
 1200
 992
