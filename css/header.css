@@ -169,7 +169,6 @@ body.sticky #header .logo {
     padding: 0 2vw;
     height: calc(100vh - 66px);
     list-style-type: none;
-    text-align: center;
     font-size: 7vw;
     z-index: 2;
     transform: translateX(-100%);
@@ -178,10 +177,6 @@ body.sticky #header .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .list__item {
-    margin: 0;
   }
 
   .toggle-language {
