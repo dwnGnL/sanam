@@ -3,6 +3,7 @@
   background: linear-gradient(90deg, #a5022e 30%, #7c0120 70%);
   color: #fff;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .logo {
