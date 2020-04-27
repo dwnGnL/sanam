@@ -1,10 +1,10 @@
 #header {
   position: relative;
-  background: linear-gradient(90deg, #a5022e 30%, #7c0120 70%);
+  background: linear-gradient(90deg, #a5022e 30vw, #7c0120 70vw);
   color: #fff;
   width: 100%;
   box-sizing: border-box;
-  z-index: 9;
+  z-index: 11;
 }
 
 .logo {
@@ -166,20 +166,22 @@ body.sticky #header .logo {
     left: 0;
     top: calc(100% - 1px);
     margin: 0;
-    padding: 0;
-    height: calc(100vh - 70px);
+    padding: 0 2vw;
+    height: calc(100vh - 66px);
     list-style-type: none;
-    width: 50%;
     text-align: center;
-    font-size: 25px;
+    font-size: 7vw;
     z-index: 2;
     transform: translateX(-100%);
-    background: linear-gradient(90deg, #a5022e 60%, #900127 100%);
+    background: inherit;
     transition: transform .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .list__item {
-    margin: 10px 0;
+    margin: 0;
   }
 
   .toggle-language {
