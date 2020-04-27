@@ -2,6 +2,7 @@
   position: relative;
   background: linear-gradient(90deg, #a5022e 30%, #7c0120 70%);
   color: #fff;
+  width: 100%;
 }
 
 .logo {
@@ -14,6 +15,10 @@
 .list__item {
   padding: 10px;
   cursor: pointer;
+}
+
+.list__item__lang {
+  cursor: default;
 }
 
 
@@ -69,18 +74,9 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.header__list.show-menu {
-  opacity: 1;
-}
-
 .header__list.is-open {
-  display: list-item;
+  transform: translateX(0%);
 }
-
-.list__item__lang {
-  cursor: default;
-}
-
 
 body.sticky {
   margin-top: 100px;
@@ -166,21 +162,19 @@ body.sticky #header .logo {
 
   .header__list {
     position: absolute;
-    right: 0;
-    top: 100%;
+    left: 0;
+    top: calc(100% - 1px);
     margin: 0;
     padding: 0;
+    height: calc(100vh - 70px);
     list-style-type: none;
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-size: 25px;
     z-index: 2;
-
-    background: linear-gradient(90deg, #a5022e 30%, #7c0120 70%);
-    transition: opacity .3s;
-
-    opacity: 0;
-    display: none;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, #a5022e 60%, #900127 100%);
+    transition: transform .3s;
   }
 
   .list__item {
