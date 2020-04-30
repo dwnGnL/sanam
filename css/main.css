@@ -16,6 +16,8 @@ body {
 
 #content {
   flex: auto;
+  max-width: 2000px;
+  margin: auto;
 }
 
 a {
@@ -238,9 +240,6 @@ img {
   cursor: pointer;
 }
 
-
-
-
 .to-top {
   position: fixed;
   bottom: 50px;
@@ -259,6 +258,14 @@ img {
 
 .to-top:hover {
   opacity: 1;
+}
+
+.container {
+  display: inherit;
+  width: inherit;
+  height: inherit;
+  max-width: 2000px;
+  margin: auto;
 }
 
 @media screen and (min-width: 992px) {
@@ -346,4 +353,10 @@ img {
     font-size: 40px;
     line-height: 40px;
   }
+
+  .container {
+    background: inherit;
+  }
 }
+
+

@@ -17,6 +17,7 @@
 </head>
 
 <body class="loading">
+
   <a href="#top" class="anchor to-top"><i class="far fa-arrow-alt-circle-up"></i></a>
   <div id="top"></div>
 
@@ -24,26 +25,36 @@
     <div class="preload__icon"></div>
   </div>
 
-  <div id="popup"> 
+  <div id="popup">
     <div class="popup__page"></div>
   </div>
 
   <div id="header">
-    <a href="index_en.html" class="mobile__toggle"><div class="switch-language"><div class="switcher"></div></div></a>
-    <div class="logo"><a href="./index.html"></a></div>
+    <div class="container">
+      <a href="index_en.html" class="mobile__toggle">
+        <div class="switch-language">
+          <div class="switcher"></div>
+        </div>
+      </a>
+      <div class="logo"><a href="./index.html"></a></div>
 
-    <ul class="header__list">
-      <li class="list__item"><a href="#slide1" class="anchor">Новинки</a></li>
-      <li class="list__item"><a href="#slide2" class="anchor">Продукция</a></li>
-      <li class="list__item"><a href="#advantage" class="anchor">Преимущества</a></li>
-      <li class="list__item"><a href="#footer" class="anchor">Контакты</a></li>
+      <ul class="header__list">
+        <li class="list__item"><a href="#slide1" class="anchor">Новинки</a></li>
+        <li class="list__item"><a href="#slide2" class="anchor">Продукция</a></li>
+        <li class="list__item"><a href="#advantage" class="anchor">Преимущества</a></li>
+        <li class="list__item"><a href="#footer" class="anchor">Контакты</a></li>
 
-      <li class="list__item list__item__lang"><a href="index_en.html"><div class="switch-language"><div class="switcher"></div></div></a></li>
-    </ul>
-    <div class="menu-button">
-      <div class="menu-line"></div>
-      <div class="menu-line"></div>
-      <div class="menu-line"></div>
+        <li class="list__item list__item__lang"><a href="index_en.html">
+            <div class="switch-language">
+              <div class="switcher"></div>
+            </div>
+          </a></li>
+      </ul>
+      <div class="menu-button">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
     </div>
   </div>
 
@@ -53,16 +64,19 @@
       <div class="swiper-container fade-gallery">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background: url(./image/fon4.jpg) no-repeat; background-size: cover;">
-            <div class="slider__text">Хрустящие вафли в сочетании с натуральными лесными ягодами <button class="cuntact-us__button">Связаться с нами</button></div>
+            <div class="slider__text">Хрустящие вафли в сочетании с натуральными лесными ягодами <button
+                onclick="jivo_api.open()" class="cuntact-us__button">Связаться с нами</button></div>
           </div>
           <div class="swiper-slide" style="background: url(./image/fon5.jpg) no-repeat; background-size: cover;">
-            <div class="slider__text">Свежий ароматный вкус лайма с щепотками свежести <button class="cuntact-us__button">Связаться с нами</button></div>
+            <div class="slider__text">Свежий ароматный вкус лайма с щепотками свежести <button onclick="jivo_api.open()"
+                class="cuntact-us__button">Связаться с нами</button></div>
           </div>
           <div class="swiper-slide" style="background: url(./image/fon6.jpg) no-repeat; background-size: cover;">
-            <div class="slider__text">Сладкий вкус карамельных вафлей сделает вашу жизнь ещё слаще. <button class="cuntact-us__button">Связаться с нами</button></div>
+            <div class="slider__text">Сладкий вкус карамельных вафлей сделает вашу жизнь ещё слаще. <button
+                onclick="jivo_api.open()" class="cuntact-us__button">Связаться с нами</button></div>
           </div>
         </div>
-        
+
         <!-- Add Pagination -->
         <div class="swiper-pagination swiper-pagination-white"></div>
         <!-- Add Arrows -->
@@ -141,8 +155,11 @@
       <div class="blog__inner shadows main-blog__image"></div>
 
       <div class="blog__inner shadows blog__text">
-        <h1>Наши акции, новости и статьи о Sanam</h1>
-        <p>С 20 июля началась Акция для розничной дистрибуционной сети (магазины розничного формата) формата «найди и выиграй». Акция беспроигрышная, так как в каждом ящике продукции Санам, обозначенной акционным скотчем есть магнит, на котором обозначен денежный приз. Данный приз меняется на ценные подарки в процессе действия Акционного периода. Акционный период 20.07 – 31.08.19</p>
+        <h1>Наши акции, новости и статьи о SWEET-PAUSE</h1>
+        <p>С 20 июля началась Акция для розничной дистрибуционной сети (магазины розничного формата) формата «найди и
+          выиграй». Акция беспроигрышная, так как в каждом ящике продукции Санам, обозначенной акционным скотчем есть
+          магнит, на котором обозначен денежный приз. Данный приз меняется на ценные подарки в процессе действия
+          Акционного периода. Акционный период 20.07 – 31.08.19</p>
         <a href="./page/blog-list.html">Узнать больше</a>
       </div>
     </div>
@@ -154,7 +171,8 @@
           <div class="advantage__img"><i class="fas fa-smile"></i></div>
           <div class="advantage__text">
             <div class="advantage__title">ПОЛЕЗНЫЙ</div>
-            <div class="advantage__desc">БОЛЕЕ 11 ВИТАМИНОВ ГРУПП А,В,С,Е И БОЛЕЕ 16 МИКРОЭЛЕМЕНТОВ И МИНЕРАЛЬНЫХ СОЕДИНЕНИЙ</div>
+            <div class="advantage__desc">БОЛЕЕ 11 ВИТАМИНОВ ГРУПП А,В,С,Е И БОЛЕЕ 16 МИКРОЭЛЕМЕНТОВ И МИНЕРАЛЬНЫХ
+              СОЕДИНЕНИЙ</div>
           </div>
         </li>
 
@@ -178,11 +196,12 @@
           <div class="advantage__img"><i class="fas fa-smile-beam"></i></div>
           <div class="advantage__text">
             <div class="advantage__title">НАТУРАЛЬНЫЙ</div>
-            <div class="advantage__desc">ОТСУТСТВИЕ ДЕНАТУРАТОВ И СЛОЖНЫХ СОЕДИНЕНИЙ НЕ РАЗЛАГАЕМОГО ВИДА ДЛЯ ОРГАНИЗМА ЧЕЛОВЕКА</div>
+            <div class="advantage__desc">ОТСУТСТВИЕ ДЕНАТУРАТОВ И СЛОЖНЫХ СОЕДИНЕНИЙ НЕ РАЗЛАГАЕМОГО ВИДА ДЛЯ ОРГАНИЗМА
+              ЧЕЛОВЕКА</div>
           </div>
         </li>
 
-        
+
       </ul>
     </div>
 
@@ -190,29 +209,32 @@
     <div id="contacts" class="block__item">
       <ul class="contact_list">
         <li><i class="fas fa-phone-alt"></i> <b>ТЕЛЕФОН</b>: (+992) 900-30-30-30</li>
-        <li><i class="fas fa-envelope"></i> <b>ПОЧТА</b>: sanam@makolli.tj</li>
-        <li><i class="fas fa-map"></i> <b>АДРЕС</b>: ул. Р. Набиева 345/1, 734036, город Душанбе, Республика Таджикистан</li>
+        <li><i class="fas fa-envelope"></i> <b>ПОЧТА</b>: sweet-pause@makolli.tj</li>
+        <li><i class="fas fa-map"></i> <b>АДРЕС</b>: ул. Р. Набиева 345/1, 734036, город Душанбе, Республика Таджикистан
+        </li>
       </ul>
 
-      <div class="map shadows">
+      <!-- <div class="map shadows">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d643.2802223094251!2d68.78949188572014!3d38.569213328599346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d38.5693085!2d68.7899477!5e0!3m2!1sen!2s!4v1586930551064!5m2!1sen!2s"
           width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
           tabindex="0"></iframe>
-      </div>
+      </div> -->
     </div>
 
   </div>
 
 
   <div id="footer">
-    <div class="logo"></div>
-    <div class="social">
-      <ul class="social__list">
-        <li class="social__item"><a href=""><i class="fab fa-youtube"></i></a></li>
-        <li class="social__item"><a href=""><i class="fab fa-facebook"></i></a></li>
-        <li class="social__item"><a href=""><i class="fab fa-instagram"></i></a></li>
-      </ul>
+    <div class="container">
+      <div class="logo"></div>
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item"><a href=""><i class="fab fa-youtube"></i></a></li>
+          <li class="social__item"><a href=""><i class="fab fa-facebook"></i></a></li>
+          <li class="social__item"><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
   </div>
 
