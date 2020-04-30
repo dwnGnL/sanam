@@ -179,3 +179,47 @@
 	font-size: 1.5vw;
 	cursor: pointer;
 }
+
+
+
+
+@media screen and (max-width: 767px) {
+	.slide1 {
+		height: 95vw;
+		background: #820809;
+    z-index: 1;
+	}
+
+	.slide1 .swiper-slide {
+		height: 75vw;
+		box-shadow: #820809 0px -4px 4px 0px inset;
+	}
+
+	.slider__text {
+		top: 100%;
+		right: initial;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55vw;
+	}
+
+	.slide2 {
+		height: 75vw;
+	}
+
+	.gallery-thumbs {
+		height: 60vw;
+		top: 21.5%;
+	}
+
+	.gallery-thumbs .swiper-slide {
+		top: 12vw;
+		transform: scale(.5);
+	}
+
+	.gallery-thumbs .swiper-slide-active {
+		transform: scale(1.7);
+	}
+
+}
+
