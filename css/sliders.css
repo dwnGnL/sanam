@@ -290,6 +290,8 @@
 	.gallery-thumbs .swiper-slide {
 		top: 12vw;
 		transform: scale(.5);
+		width: 31vw;
+		height: 31vw;
 	}
 
 	.gallery-thumbs .swiper-slide-active {
