@@ -63,6 +63,10 @@
 	padding: 10px 0;
 }
 
+.swiper-slide-active .slider__text{
+	display: block;
+}
+
 .gallery-thumbs .swiper-slide {
 	border-radius: 100%;
 	border-left: .2vw solid;
@@ -103,6 +107,7 @@
 }
 
 .slider__text {
+	display: none;
 	position: absolute;
 	top: 50%;
 	right: 5vw;
