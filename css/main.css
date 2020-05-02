@@ -244,7 +244,7 @@ img {
 .to-top {
   position: fixed;
   bottom: 50px;
-  right: 50px;
+  left: 50px;
   z-index: 9;
   width: 50px;
   height: 50px;
@@ -348,7 +348,7 @@ img {
 
   .to-top {
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     width: 40px;
     height: 40px;
     font-size: 40px;
