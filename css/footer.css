@@ -2,6 +2,7 @@
   position: relative;
   background: linear-gradient(90deg, #e2013d 30%, #a8022c 70%);
   margin-top: 50px;
+  padding: 0 100px;
 }
 
 #footer .container{
@@ -12,7 +13,7 @@
 }
 
 #footer .logo {
-  margin: 20px 50px;
+  margin: 20px 0px;
 }
 
 .social {
