@@ -161,7 +161,7 @@ a {
 
 /* blog page */
 .blog__page {
-  margin: 20px 100px;
+  /* margin: 20px 100px; */
   box-sizing: border-box;
   font-size: 18px;
   line-height: 27px;
@@ -306,6 +306,10 @@ img {
     width: 600px;
     height: 450px;
   }
+
+  .blog__page {
+    margin: 20px 100px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -357,6 +361,18 @@ img {
 
   .container {
     background: inherit;
+  }
+
+  .blog__page {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    font-size: 15px;
+  }
+
+  .blog__page img {
+    margin: 0px auto 50px;
+    width: 100%;
   }
 }
 
